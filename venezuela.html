@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <title>Venezuela</title>
+    <link href="css/venezuela.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -11,15 +12,6 @@
       <h1>Venezuela</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#geography">Geography</a></li>
-        <li><a href="#people&society">People & Society</a></li>
-        <li><a href="#government">Government</a></li>
-      </ul>
-    </nav>
-
     <main>
 
       <section id="introduction">
@@ -27,27 +19,27 @@
 
           <aside>
            <figure>
-             <img src="venezuela/venezuela-legislative-building.jpg" alt="Legislative Building of Venezuela" />
+             <img src="venezuela/venezuela-legislative-building.jpg" alt="Legislative Building of Venezuela" class="center"/>
              <figcaption>The Federal Legislative Palace in Caracas houses the National Assembly. JPG,137KB (by: <abbr title="Central Intelligence Agency">CIA</abbr> World Factbook)</figcaption>
            </figure>
           </aside>
 
-          <p>Venezuela was one of three countries that emerged from the collapse of Gran Colombia in <time datetime="1830">1830</time> (the others being Ecuador and New Granada, which became Colombia).</p>
+          <p class="para">Venezuela was one of three countries that emerged from the collapse of Gran Colombia in <time datetime="1830">1830</time> (the others being Ecuador and New Granada, which became Colombia).</p>
 
-          <p>For most of the first half of the 20th century, Venezuela was ruled by generally benevolent military strongmen who promoted the oil industry and allowed for some social reforms.</p>
+          <p class="para">For most of the first half of the 20th century, Venezuela was ruled by generally benevolent military strongmen who promoted the oil industry and allowed for some social reforms.</p>
 
-          <p>Democratically elected governments have held sway since <time datetime="1959">1959</time>. Under Hugo CHAVEZ, president from <time datetime="1999">1999</time> to <time datetime="2013">2013</time>, and his hand-picked successor, MADURO, the executive branch has exercised increasingly authoritarian control over other branches of government.</p>
+          <p class="para">Democratically elected governments have held sway since <time datetime="1959">1959</time>. Under Hugo CHAVEZ, president from <time datetime="1999">1999</time> to <time datetime="2013">2013</time>, and his hand-picked successor, MADURO, the executive branch has exercised increasingly authoritarian control over other branches of government.</p>
 
-          <p>The last opposition-controlled institution is the National Assembly that was elected in <time datetime="2015">2015</time>, whose president Juan GUAIDO is currently recognized by several countries - including the United States - as the interim president of Venezuela.</p>
+          <p class="para">The last opposition-controlled institution is the National Assembly that was elected in <time datetime="2015">2015</time>, whose president Juan GUAIDO is currently recognized by several countries - including the United States - as the interim president of Venezuela.</p>
 
-          <p>Years of economic mismanagement left Venezuela ill-prepared to weather the global drop in oil prices in <time datetime="2014">2014</time>, sparking an ongoing economic decline that has resulted in reduced government social spending, shortages of basic goods, and high inflation. Worsened living conditions have prompted over 6 million Venezuelans to migrate, mainly settling in nearby countries.</p>
+          <p class="para">Years of economic mismanagement left Venezuela ill-prepared to weather the global drop in oil prices in <time datetime="2014">2014</time>, sparking an ongoing economic decline that has resulted in reduced government social spending, shortages of basic goods, and high inflation. Worsened living conditions have prompted over 6 million Venezuelans to migrate, mainly settling in nearby countries.</p>
 
       </section>
 
       <section id="geography">
         <h2>Geography</h2>
 
-        <article>
+        <article id="location">
           <h3>Location</h3>
 
           <aside>
@@ -66,7 +58,7 @@
             <p><a href="https://www.google.com/maps/place/Venezuela/@5.0293512,-62.8536346,4.31z/data=!4m5!3m4!1s0x8c2853cb36cbd801:0xdca0f2587cd54dd3!8m2!3d6.42375!4d-66.58973">Check out Venezuela in the World Map!</a></p>
           </article>
 
-        <article>
+        <article id="land-use">
           <h3>Land Use</h3>
 
           <aside>
@@ -111,34 +103,25 @@
               </aside>
             </article>
 
-        <article>
-          <h3>Climate</h3>
-
-          <ul>
-            <li>Tropical</li>
-            <li>Hot</li>
-            <li>Humid</li>
-            <li>More moderate in highlands</li>
-          </ul>
-        </article>
     </section>
 
-    <section id="people&society">
+    <section id="people-and-society">
 
-      <h2>People & Society</h2>
+      <h2>People and Society</h2>
 
       <article>
         <h3>Population</h3>
           <p>29,069,153 (July <time datetime="2021">2021</time> est.)</p>
 
-          <a href="https://www.cia.gov/the-world-factbook/field/population/country-comparison">Country Population Comparisons to the World: Rank 50</a>
+          <p><a href="https://www.cia.gov/the-world-factbook/field/population/country-comparison">Country Population Comparisons to the World: Rank 50</a> </p>
+
 
       </article>
 
       <article>
         <h3>Ethnic Groups</h3>
 
-          <ol>
+          <ul>
             <li>Unspecified Spanish</li>
             <li>Italian</li>
             <li>Portuguese</li>
@@ -146,13 +129,16 @@
             <li>German</li>
             <li>African</li>
             <li>Indigenous</li>
-          </ol>
+          </ul>
       </article>
 
       <article>
         <h3>Language</h3>
 
-          <p>Spanish (official), numerous indigenous dialects</p>
+          <ul>
+            <li>Spanish (official)</li>
+            <li>Numerous indigenous dialects</li>
+          </ul>
 
           <h4>Spanish audio sample:</h4>
           <aside>
@@ -181,8 +167,6 @@
 
             <h4>Flag Description</h4>
 
-              <p>Three equal horizontal bands of yellow (top), blue, and red with the coat of arms on the hoist side of the yellow band and an arc of eight white five-pointed stars centered in the blue band.</p>
-
               <p>The flag retains the three equal horizontal bands and three main colors of the banner of Gran Colombia, the South American republic that broke up in <time datetime="1830">1830</time>.</p>
 
               <p>Yellow is interpreted as standing for the riches of the land, blue for the courage of its people, and red for the blood shed in attaining independence.</p>
@@ -203,25 +187,6 @@
           </aside>
 
       </article>
-
-      <article>
-        <h3>Diplomatic representation in the US</h3>
-
-          <h4>Chief of mission:</h4>
-          <p>Ambassador Carlos Alfredo VECCHIO (since <time datetime="2019-04-08">8 April 2019</time>)</p>
-
-          <h4>Chancery:</h4>
-          <address>
-            <p>1099 30th Street NW,<br/>
-            Washington, DC 20007</p>
-          </address>
-
-          <h4>Telephone:</h4>
-          <p><a href="+12023422214">+1 (202)342-2214</a></p>
-
-          <h4>Email:</h4>
-          <p><a href="mailto:despacho.embveus@mppre.gob.ve">despacho.embveus@mppre.gob.ve</a></p>
-        </article>
 
       </section>
 
